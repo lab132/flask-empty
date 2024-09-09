@@ -3,7 +3,7 @@ import shutil
 
 COOKIES = {
     # {% for key, val in cookiecutter.items() %}
-    '{{ key }}': '{{ val }}',
+    '{{ key }}': r'{{ val }}',
     # {% endfor %}
 }
 
